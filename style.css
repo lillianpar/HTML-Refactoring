@@ -85,23 +85,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* benefit lead, brand and cost, were consolidated to make ".benefit" */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* .benefit h3 was also consolidated for cleaner looking code */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* benefit img was consolidated */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* .Service was consolidted */
 .service {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,13 +110,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-
+/*.service img was consolidted */
 .service img {
     max-height: 200px;
 }
-
-
+/* .service h2 was consolidated */
 .service h2 {
     margin-bottom: 20px;
     font-size: 36px;
